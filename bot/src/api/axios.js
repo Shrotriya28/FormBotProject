@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'https://formbotproject-1.onrender.com',  
+    baseURL: "https://formbotproject.onrender.com",  
 });
 
 instance.interceptors.request.use(
